@@ -1,0 +1,12 @@
+[
+  {
+    "className" : "JZJResumeViewController",
+    "title" : "简历",
+    "imageName" : "home"
+  },
+  {
+  "className" : "JZJAdditionalViewController",
+  "title" : "竞赛题",
+  "imageName" : "home"
+ }
+]
