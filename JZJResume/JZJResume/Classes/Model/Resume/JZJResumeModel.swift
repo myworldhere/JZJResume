@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import YYModel
+
 class JZJResumeModel: NSObject {
 
     var name : String?
@@ -18,6 +18,10 @@ class JZJResumeModel: NSObject {
     var qq : String?
     var college : String?
     var bachelor : String?
+    
+    
+    
+    
     
     //重写description的计算属性
     override var description: String {

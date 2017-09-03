@@ -95,6 +95,7 @@ extension JZJBaseViewController {
         ///设置数据源和代理->子类直接实现方法即可
         tableView?.dataSource = self
         tableView?.delegate = self
+        tableView?.estimatedRowHeight = 44
         ///设置内容缩进，需要先设置   automaticallyAdjustsScrollViewInsets = false 否则会多缩进20个点。
         tableView?.contentInset = UIEdgeInsets(top: navigationBar.frame.height, left: 0, bottom: tabBarController?.tabBar.bounds.height ?? 49, right: 0)
         //设置指示器的缩进,强行解包，因为这里需要一个确定值，而tabView肯定有值，可以强解
@@ -107,7 +108,7 @@ extension JZJBaseViewController {
         //添加到视图
         tableView?.addSubview(refreshControl!)
         refreshControl?.addTarget(self, action: #selector(loadData), for: .valueChanged)
-        
+        tableView?.tableFooterView = UIView()
     }
 }
 //  MARK: - UITableViewDataSource,UITableViewDelegate

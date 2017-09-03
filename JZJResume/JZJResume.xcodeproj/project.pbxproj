@@ -11,6 +11,11 @@
 		890824C71F5A66F80005D3D5 /* JZJImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824C61F5A66F80005D3D5 /* JZJImporter.swift */; };
 		890824CA1F5A6A7E0005D3D5 /* JZJResumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824C91F5A6A7E0005D3D5 /* JZJResumeModel.swift */; };
 		890824CD1F5A6BF00005D3D5 /* JZJResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824CC1F5A6BF00005D3D5 /* JZJResumeViewModel.swift */; };
+		890824CF1F5B034C0005D3D5 /* JZJProjectExperienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824CE1F5B034C0005D3D5 /* JZJProjectExperienceModel.swift */; };
+		890824D11F5B05300005D3D5 /* JZJSkillsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824D01F5B05300005D3D5 /* JZJSkillsModel.swift */; };
+		890824D51F5B13290005D3D5 /* JZJProjectExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824D41F5B13290005D3D5 /* JZJProjectExperienceViewModel.swift */; };
+		890824D71F5B1B0F0005D3D5 /* projectEx.json in Resources */ = {isa = PBXBuildFile; fileRef = 890824D61F5B1B0F0005D3D5 /* projectEx.json */; };
+		890824D91F5B226D0005D3D5 /* JZJProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890824D81F5B226D0005D3D5 /* JZJProjectListViewModel.swift */; };
 		89A56F351F599FF400CCAE81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A56F341F599FF400CCAE81 /* AppDelegate.swift */; };
 		89A56F3C1F599FF400CCAE81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A56F3B1F599FF400CCAE81 /* Assets.xcassets */; };
 		89A56F951F59AAEE00CCAE81 /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A56F511F59AAED00CCAE81 /* NSArray+CZAddition.m */; };
@@ -56,6 +61,11 @@
 		890824C61F5A66F80005D3D5 /* JZJImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJImporter.swift; sourceTree = "<group>"; };
 		890824C91F5A6A7E0005D3D5 /* JZJResumeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJResumeModel.swift; sourceTree = "<group>"; };
 		890824CC1F5A6BF00005D3D5 /* JZJResumeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJResumeViewModel.swift; sourceTree = "<group>"; };
+		890824CE1F5B034C0005D3D5 /* JZJProjectExperienceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJProjectExperienceModel.swift; sourceTree = "<group>"; };
+		890824D01F5B05300005D3D5 /* JZJSkillsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJSkillsModel.swift; sourceTree = "<group>"; };
+		890824D41F5B13290005D3D5 /* JZJProjectExperienceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJProjectExperienceViewModel.swift; sourceTree = "<group>"; };
+		890824D61F5B1B0F0005D3D5 /* projectEx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = projectEx.json; sourceTree = "<group>"; };
+		890824D81F5B226D0005D3D5 /* JZJProjectListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZJProjectListViewModel.swift; sourceTree = "<group>"; };
 		89A56F311F599FF400CCAE81 /* JZJResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZJResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A56F341F599FF400CCAE81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A56F3B1F599FF400CCAE81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				890824C91F5A6A7E0005D3D5 /* JZJResumeModel.swift */,
+				890824CE1F5B034C0005D3D5 /* JZJProjectExperienceModel.swift */,
+				890824D01F5B05300005D3D5 /* JZJSkillsModel.swift */,
 			);
 			path = Resume;
 			sourceTree = "<group>";
@@ -145,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				890824CC1F5A6BF00005D3D5 /* JZJResumeViewModel.swift */,
+				890824D81F5B226D0005D3D5 /* JZJProjectListViewModel.swift */,
+				890824D41F5B13290005D3D5 /* JZJProjectExperienceViewModel.swift */,
+				890824D61F5B1B0F0005D3D5 /* projectEx.json */,
 			);
 			path = Resume;
 			sourceTree = "<group>";
@@ -380,6 +395,7 @@
 				TargetAttributes = {
 					89A56F301F599FF400CCAE81 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3484ZUH6B3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -409,6 +425,7 @@
 			files = (
 				89A56FD61F59B2A500CCAE81 /* main.json in Resources */,
 				89A56FBB1F59AAEE00CCAE81 /* JZJRefreshView.xib in Resources */,
+				890824D71F5B1B0F0005D3D5 /* projectEx.json in Resources */,
 				89A56FB61F59AAEE00CCAE81 /* JZJHumanRefreshView.xib in Resources */,
 				89A56FB81F59AAEE00CCAE81 /* JZJMeiTuanRefreshView.xib in Resources */,
 				89A56F3C1F599FF400CCAE81 /* Assets.xcassets in Resources */,
@@ -478,7 +495,10 @@
 				89A56F9C1F59AAEE00CCAE81 /* NSString+CZHash.m in Sources */,
 				89A56FB31F59AAEE00CCAE81 /* UIImage+Extension.swift in Sources */,
 				89A56FDF1F59BCB400CCAE81 /* JZJAdditionalViewController.swift in Sources */,
+				890824CF1F5B034C0005D3D5 /* JZJProjectExperienceModel.swift in Sources */,
 				89A56FA01F59AAEE00CCAE81 /* UILabel+CZAddition.m in Sources */,
+				890824D51F5B13290005D3D5 /* JZJProjectExperienceViewModel.swift in Sources */,
+				890824D91F5B226D0005D3D5 /* JZJProjectListViewModel.swift in Sources */,
 				89A56FD21F59B07E00CCAE81 /* JZJBaseViewController.swift in Sources */,
 				89A56FB41F59AAEE00CCAE81 /* UIImageView+Kingfisher.swift in Sources */,
 				89A56FD31F59B07E00CCAE81 /* JZJMainViewController.swift in Sources */,
@@ -489,6 +509,7 @@
 				89A56FDD1F59BC8700CCAE81 /* JZJResumeViewController.swift in Sources */,
 				89A56F9B1F59AAEE00CCAE81 /* NSString+CZBase64.m in Sources */,
 				89A56FBA1F59AAEE00CCAE81 /* JZJRefreshView.swift in Sources */,
+				890824D11F5B05300005D3D5 /* JZJSkillsModel.swift in Sources */,
 				89A56F9A1F59AAEE00CCAE81 /* NSObject+CZRuntime.m in Sources */,
 				89A56F961F59AAEE00CCAE81 /* NSArray+Log.m in Sources */,
 				89A56F991F59AAEE00CCAE81 /* NSObject+CZAddition.m in Sources */,
@@ -607,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3484ZUH6B3;
 				INFOPLIST_FILE = JZJResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dc.JZJResume;
@@ -622,6 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3484ZUH6B3;
 				INFOPLIST_FILE = JZJResume/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dc.JZJResume;

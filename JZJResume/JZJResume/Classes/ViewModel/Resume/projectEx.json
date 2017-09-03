@@ -1,0 +1,20 @@
+[
+ {"name":"蜂巢物业云",
+ "duration" : "12周",
+ "desc":"蜂巢物业云是一款专为物业公司服务的APP。集任务派发转接，聊天互动，物业管理于一身的全功能APP。互动首页，主要为物业公司任务创建，派发，接受，转发，监督等业务流(保修，投诉，工作提醒等)。同时集成聊天功能，可单聊，群聊，支持自定义消息。应用模块集成视频培训，考勤，车辆管理，工作提醒，巡更，历史记录等功能。支持二维码扫描添加同事聊天，及扫描设备铭牌进行报修业务。\n项目技术:\n1.采用MVC，单例，通知，等设计模式建立框架；\n 2.使用 AFNetworking进行数据请求；\n3.使用MJExtension进行Json数据解析； \n4.使用 SDWebImage加载网络图片； \n5.使用 融云SDK集成单聊及群聊功能； \n6.使用JPush SDK集成远程推送功能； \n7.使用 BlocksKit简化代理及target-action模式代码；\n8.使用 MBProgressHUD 进行信息提示；",
+ "urls":"https://itunes.apple.com/cn/app/%E8%9C%82%E5%B7%A2%E7%89%A9%E4%B8%9A%E4%BA%91/id1038292549?mt=8&ign-mpt=uo%3D4"
+ },
+ {"name":"蜂巢e社区",
+ "duration" : "12周",
+ "desc":"项目专为服务社区业主而开发，主要功能包含，社区便利店，门禁，物业缴费，报修，投诉，社区分享(类朋友圈)等功能。\n项目技术:\n1.采用MVC，单例，通知，等设计模式建立框架。\n2.合理使用封装，继承，多态，避免代码冗余。\n3.使用AFNetworking进行网络操作，使用MJExtension进行Json解析。\n4.使用FMDB进行数据持久化操作。\n5.使用SDWebImage进行网络图片加载。\n6.使用GCD进行多线程操作。\n7.使用支付宝及微信SDK进行支付。\n8.使用JPush SDK集成远程推送功能。",
+ "urls":"https://itunes.apple.com/cn/app/%E8%9C%82%E5%B7%A2e%E7%A4%BE%E5%8C%BA/id1152312308?mt=8"
+ },
+ {"name":"蜂送到家",
+ "duration" : "10周",
+ "desc":"项目是社区线下便利店配套的app，主要提供生鲜蔬菜，特产，小吃等的预购，立购买，配合小区便利店实现小区消费最后一公里的覆盖。\n项目技术:\n1.采用MVC设计模式以减少代码的耦合度。\n2.使用AFNetworking进行网络操作，JSON数据解析。\n3.NSUserDefaults，FMDB进行数据持久化。\n4.使用SDWebImage异步加载图片。\n5.采用GCD多线程技术，处理线程问题。",
+ "urls":"https://itunes.apple.com/cn/app/%E8%9C%82%E9%80%81%E5%88%B0%E5%AE%B6/id992792032?mt=8"
+ }
+ 
+ 
+ 
+ ]

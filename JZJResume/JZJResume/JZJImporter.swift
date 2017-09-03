@@ -9,3 +9,4 @@
 import Foundation
 import SnapKit
 import Kingfisher
+import YYModel

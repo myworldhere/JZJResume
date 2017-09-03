@@ -39,7 +39,7 @@ class JZJResumeViewModel: CustomStringConvertible {
         
         educationInfo = "学历：" + college +  " " + bachelor
         
-        birthdayInfo = "生日：" + birthday + " 存在了" + calculateAge(birthday: birthday)
+        birthdayInfo = "生日：" + birthday + "   " + calculateAge(birthday: birthday)
         
         contactInfo = "电话：" + phone + "\nEmail: " + email + "\nQQ: " + qq
     }
@@ -99,6 +99,6 @@ private extension JZJResumeViewModel {
             }
         }
         
-      return "\(ageYear)年\(ageMonth)个月\(ageDay)天"
+      return "\(ageYear)岁\(ageMonth)个月\(ageDay)天"
     }
 }
